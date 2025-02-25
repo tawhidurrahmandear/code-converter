@@ -25,6 +25,7 @@ body {
   border-radius: 5px;
   font-size: 14px;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .code-converter_input:focus, .code-converter_select:focus {
@@ -42,6 +43,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  box-sizing: border-box;
 }
 
 .code-converter_button:hover {
